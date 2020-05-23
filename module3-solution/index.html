@@ -1,26 +1,72 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Responsive Layout</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">	
-</head>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Responsive and Navigation Bar Layout</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css">	
+	</head>
+
 <body>
+	<header>
+   <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+
+          <div class="navbar-brand">
+            <h1>Food, LLC.</h1>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div><!-- .navbar-header -->
+
+    		<div id="collapsable-nav" class="collapse navbar-collapse">
+        	<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">  <!-- hidden-lg hidden-md hidden-sm -->
+          	<li> Chicken </li>
+          	<li role="separator" class="divider"></li>
+          	<li> Beef </li>
+          	<li role="separator" class="divider"></li>
+          	<li> Sushi </li>
+        	</ul>
+      	</div><!-- .collapsable-nav not part of .navbar-header -->
+
+    	</div><!-- .container -->
+   </nav><!-- .header nav -->
+	</header>
+
 <h1>Our Menu</h1>
-<div>
-<p class="col-lg-4 col-md-5">
-	<element class="b1">Chicken</element>	
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam purus sit amet luctus venenatis lectus. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Pulvinar elementum integer enim neque volutpat. Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Neque sodales ut etiam sit amet nisl. Donec adipiscing tristique risus nec feugiat in fermentum posuere urna. Id ornare arcu odio ut sem nulla pharetra diam sit. At quis risus sed vulputate odio. Fermentum iaculis eu non diam phasellus vestibulum. Nunc mattis enim ut tellus elementum sagittis vitae et. Volutpat odio facilisis mauris sit amet. Gravida quis blandit turpis cursus in hac habitasse. Id neque aliquam vestibulum morbi blandit cursus risus. Tellus integer feugiat scelerisque varius morbi enim nunc faucibus. Consequat interdum varius sit amet mattis vulputate. Gravida rutrum quisque non tellus.
-</p>
-<p class="col-lg-4 col-md-5">
-	<element class="b2">Beef</element>
-		Id eu nisl nunc mi ipsum faucibus. Ultrices dui sapien eget mi proin sed libero enim. In dictum non consectetur a erat nam at. Mauris augue neque gravida in fermentum. Nam libero justo laoreet sit amet cursus. Bibendum at varius vel pharetra vel turpis nunc eget lorem. Orci a scelerisque purus semper eget duis at tellus. Aliquam purus sit amet luctus venenatis lectus magna fringilla urna. Cras fermentum odio eu feugiat. Turpis egestas sed tempus urna. Sed blandit libero volutpat sed cras ornare arcu. Ultrices neque ornare aenean euismod elementum nisi quis. Turpis massa sed elementum tempus egestas sed. Eget gravida cum sociis natoque penatibus et.
-</p>
-<p class="col-lg-4 col-md-11">
-	<element class="b3">Sushi</element> 
-		Egestas purus viverra accumsan in nisl. Proin libero nunc consequat interdum varius sit amet mattis. Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum. Vel pharetra vel turpis nunc eget lorem dolor sed. Amet dictum sit amet justo donec enim. Ut faucibus pulvinar elementum integer enim neque volutpat. At urna condimentum mattis pellentesque id. Etiam non quam lacus suspendisse faucibus. Id ornare arcu odio ut. Ac felis donec et odio pellentesque. Vulputate enim nulla aliquet porttitor lacus luctus. Massa sed elementum tempus egestas sed sed risus pretium. Non sodales neque sodales ut etiam sit amet nisl purus. Sed faucibus turpis in eu.
-</p>
+	<div class="container-fluid">
+		<div class="row justify-content-around">
+			<div class="col-md-12 col-sm-12 col-xs-12 e1">
+				<h3 class="b1">Chicken</h3>	
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis egestas. Dui id ornare arcu odio. Diam donec adipiscing tristique risus nec feugiat in. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Ipsum dolor sit amet consectetur adipiscing elit. Cras fermentum odio eu feugiat pretium nibh. Vitae proin sagittis nisl rhoncus mattis. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. Aliquam faucibus purus in massa. In ornare quam viverra orci sagittis eu. Euismod elementum nisi quis eleifend quam adipiscing vitae proin. Sollicitudin nibh sit amet commodo nulla.
+
+        Ut lectus arcu bibendum at varius vel pharetra vel. Nec sagittis aliquam malesuada bibendum arcu vitae elementum. Egestas maecenas pharetra convallis posuere morbi leo urna. Diam in arcu cursus euismod quis viverra nibh cras. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Nibh sit amet commodo nulla facilisi. Sed faucibus turpis in eu mi bibendum neque. Facilisi nullam vehicula ipsum a arcu. Non curabitur gravida arcu ac tortor. Tristique senectus et netus et malesuada fames ac. Auctor neque vitae tempus quam pellentesque nec nam. Nec feugiat in fermentum posuere urna nec tincidunt. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Enim blandit volutpat maecenas volutpat blandit aliquam etiam. Nunc mattis enim ut tellus.</p>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12 e2">
+				<h3 class="b2">Beef</h3>
+				<p>Vitae suscipit tellus mauris a. Sagittis id consectetur purus ut faucibus. Mollis nunc sed id semper risus in hendrerit gravida rutrum. Tristique senectus et netus et. Congue nisi vitae suscipit tellus mauris a diam maecenas sed. Magna sit amet purus gravida quis blandit turpis cursus. Eget egestas purus viverra accumsan in nisl. Auctor augue mauris augue neque gravida in fermentum et. Amet volutpat consequat mauris nunc congue. Nisl pretium fusce id velit ut tortor pretium viverra suspendisse. Nibh tellus molestie nunc non blandit massa enim nec.
+
+        Cursus metus aliquam eleifend mi in nulla posuere. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Ultricies tristique nulla aliquet enim. Sagittis id consectetur purus ut faucibus pulvinar. Diam sit amet nisl suscipit adipiscing bibendum. Viverra orci sagittis eu volutpat odio facilisis mauris. Id volutpat lacus laoreet non curabitur gravida arcu ac. Lectus vestibulum mattis ullamcorper velit. Ultricies mi eget mauris pharetra et ultrices neque. Et tortor at risus viverra adipiscing at in tellus integer. Id aliquet risus feugiat in ante.</p>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12 e3">
+				<h3 class="b3">Sushi</h3> 
+				<p>Fringilla est ullamcorper eget nulla facilisi. Nunc sed id semper risus in. Nunc id cursus metus aliquam eleifend mi. Massa ultricies mi quis hendrerit dolor magna. Mattis molestie a iaculis at erat pellentesque adipiscing commodo elit. Donec massa sapien faucibus et molestie ac. Tristique risus nec feugiat in fermentum posuere. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit. Nunc lobortis mattis aliquam faucibus purus in massa tempor. Urna molestie at elementum eu facilisis sed odio morbi. Aenean et tortor at risus viverra adipiscing at. Malesuada proin libero nunc consequat interdum varius. Id neque aliquam vestibulum morbi blandit cursus risus. Et pharetra pharetra massa massa ultricies mi quis hendrerit. Malesuada bibendum arcu vitae elementum curabitur vitae. Est placerat in egestas erat imperdiet sed euismod nisi porta. Nisi est sit amet facilisis magna.
+
+        Neque vitae tempus quam pellentesque nec nam aliquam. Eu consequat ac felis donec et odio pellentesque. Lacus vel facilisis volutpat est. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Et odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Posuere sollicitudin aliquam ultrices sagittis. Cras semper auctor neque vitae tempus quam pellentesque. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus. Pellentesque id nibh tortor id aliquet lectus proin nibh nisl. Facilisis leo vel fringilla est ullamcorper eget nulla facilisi etiam. Consectetur lorem donec massa sapien faucibus et molestie ac feugiat. Scelerisque varius morbi enim nunc faucibus a pellentesque sit amet. Fermentum et sollicitudin ac orci phasellus egestas tellus. Auctor urna nunc id cursus metus aliquam eleifend mi. Bibendum neque egestas congue quisque egestas. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Massa tincidunt dui ut ornare lectus sit.</p>
+			</div>
+		</div>
 </div>
+
+
+<!-- jQuery (Bootstrap JS plugins depend on it) -->
+  	<script src="js/jquery-2.1.4.min.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

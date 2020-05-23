@@ -3,132 +3,139 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
-  width: 95%;
+  width: 100%;
 }
 
-h1 {
-    margin: 20px;
-    text-align: center;
+h1 { font-family: Helvetica Neue;
+  color: black;
+  text-align: center;
+  border: 0px;
 }
 
-.b1 { background-color: #98374e;
+h3 { font-family: Helvetica Neue;
+  color: black;
+  text-align: left;
+  width: 100%;
+  border: 0px;
 }
 
-.b2 { background-color: #d59368;
+div { position: relative;
+  float: left;
+  font-family: Helvetica Neue;
+  width: 100%;
+  overflow: auto;
+  border: 0px;
 }
 
-.b3 { background-color: #ab8af1;
+#header-nav { font-size: 16px;
+  background-color: DodgerBlue;
+  text-align: left;
+  border-radius: 0px;
+  border: 0px;
 }
 
-p { position: relative;
-    background-color: #81c593;
-    font-family: Helvetica;
-    width: 90%;
-    height: 250px;
-    overflow: auto;
-    margin: 10px;
-    padding: 40px 8px 8px 8px;
-    border: 1px solid black; 
+#nav-list li { text-align: center;
+  color: white;
 }
 
-element { position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 20px;
-    font-family: Helvetica;
-    text-align: center;
-    font-weight: bold;
-    background-color: #8193b8;
-    color: white;
-    padding: 5px;
-    border: 1px solid black;
-  }
-
-/********** Large devices only **********/
-@media (min-width: 992px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-  }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 29%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
+.container-fluid{height: 700px
 }
 
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 44%;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
+.navbar-header {height: 100px;
+}
+
+.navbar-brand h1 { position: absolute;
+  top: 10px;
+  left: 20px;
+  text-align: left;
+  height: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+  border: 1px;
+  color: white;
+}
+
+.b1 {position: relative;
+  left: 0%;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.b2 { position: relative;
+  left: 0%;
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+}
+
+.b3 { position: relative;
+  left: 0%;
+  text-align: center;
+  padding: 5px;
+  margin: 0px; 
+}
+
+.e1 { font-family: Helvetica Neue;
+  text-align: left;
+  background-color: Orange;
+  color: black;
+}
+
+.e2 { font-family: Helvetica Neue;
+  text-align: left;
+  background-color: DodgerBlue;
+  color: black;
+}
+
+.e3 { font-family: Helvetica Neue;
+  text-align: left;
+  background-color: MediumSeaGreen;
+  color: black;
+}
+
+.row{margin: 0px 0px 20px 0px;
+  border: 0px;
+}
+
+.col-md-12{position: relative;
+  float: left;
+  padding: 20px 10px 10px 10px;
+  margin: 20px 0px 30px 0px;
+  border: 0px;
+}
+
+.col-sm-12{ position: relative;
+  float: left;
+  padding: 20px 10px 10px 10px;
+  margin: 20px 0px 30px 0px;
+  border: 0px;
+}
+
+.col-xs-12{position: relative;
+  float: left;
+  padding: 20px 10px 10px 10px;
+  margin: 20px 0px 30px 0px;
+  border: 0px; 
+}
+
+.navbar-header button.navbar-toggle {
+  background-color: DodgerBlue;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+
+@media (max-width:767px){
+  .divider {
+        height: 1px;
+        margin: 9px 0;
+        overflow: hidden;
+        background-color: white;
+    }
 }
 
 </style>
